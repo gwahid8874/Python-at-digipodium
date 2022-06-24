@@ -1,0 +1,14 @@
+from turtle import *
+t = Turtle()
+speed('fastest')
+t.color('red')
+bgcolor('black')
+pencolor('blue')
+pensize(1)
+fillcolor('yellow')
+begin_fill()
+for i in range(500):
+    fd(i)
+    lt(500)
+end_fill()
+mainloop()

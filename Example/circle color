@@ -1,0 +1,13 @@
+from turtle import *
+t = Turtle()
+t.speed('fastest')
+fillcolor('blue')
+t.color('red')
+for i in range(50):
+    begin_fill()
+    t.circle(5*i)
+    t.circle(-5*i)
+    t.lt(i)
+    end_fill()
+
+mainloop()

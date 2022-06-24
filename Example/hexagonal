@@ -1,0 +1,14 @@
+from turtle import *
+t = Turtle()
+t.speed('fast')
+t.color('red')
+s = getscreen()
+for i in range (10, 1000):
+     t.fd(i)
+     t.lt(60)
+
+t.color('green')
+for i in range(100, 10):
+    t.fd(i)
+    t.rt(-120)
+mainloop()

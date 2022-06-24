@@ -1,0 +1,36 @@
+from turtle import *
+t = Turtle()
+colors = ['green', 'purple', 'red', 'blue']
+pensize(5)
+pencolor(colors[0])
+penup()
+goto(-200,150)
+pendown()
+for i in range(4):
+    t.circle()
+    fd(50)
+    lt(90)
+
+pencolor(colors[1])
+penup()
+goto(200,150)
+pendown()
+for i in range(4):
+    fd(50)
+    lt(90)
+
+pencolor(colors[2])
+penup()
+goto(-200,-150)
+pendown()
+for i in range(4):
+    fd(50)
+    lt(90)
+pencolor(colors[3])
+penup()
+goto(200,-150)
+pendown()
+for i in range(4):
+    fd(50)
+    lt(90)
+mainloop()

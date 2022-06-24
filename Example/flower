@@ -1,0 +1,19 @@
+from tkinter import mainloop
+from turtle import begin_fill, circle, end_fill, fillcolor, pencolor, pendown, penup
+from turtle import *
+s = Screen()
+s.setup(600,600)
+fillcolor('red')
+pencolor('blue')
+for i in range(3):
+    lt(120)
+    penup()
+    fd(80)
+    pendown()
+    begin_fill()
+    circle(40)
+    end_fill()
+    penup()
+    bk(80)
+    pendown()
+mainloop()
